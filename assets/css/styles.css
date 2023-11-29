@@ -38,6 +38,29 @@
     padding: 15px;
 }
 
+.navbar ul li a:hover{
+    color: var(--accent-color);
+    transition: 0.5s;
+}
+  
+.navbar ul li .active{
+    color: var(--accent-color);
+}
+
 .logo img{
     width: 80px;
+}
+
+#sign-up{
+    border: 2px solid var(--accent-color);
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 3px 8%; 
+}
+  
+#sign-up:hover{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    transition: 0.5s;
 }
