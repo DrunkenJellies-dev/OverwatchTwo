@@ -36,11 +36,14 @@
     color: var(--primary-color);
     font-weight: 400;
     padding: 15px;
+
+    transition: all 0.3s;
 }
 
 .navbar ul li a:hover{
     color: var(--accent-color);
-    transition: 0.5s;
+
+    transform: translateY(-10px);
 }
   
 .navbar ul li .active{
