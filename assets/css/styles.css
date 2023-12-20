@@ -1,96 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --primary-color: #FFFFFF;
-    --secondary-color: #4b4c4e;
+
+    /* Repeated Colors */
+    --primary-color: #43484c;
+    --secondary-color: #FFFFFF;
     --accent-color: #f06414;
     --secondary-accent-color: #218ffe;
-    --black: #000000;
+    --black: #3a3a3a;
 }
+
+/* General Styling */
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-.banner{
+body{
+    min-height: 100vh;
+    background: url('../images/hero-image.webp') no-repeat center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Styling */
+
+header{
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    background-color: var(--primary-color);
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
-    background-position: center;
-}
-
-.navbar{
-    width: 90%;
-    padding: 30px;
-    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 1px var(--black);
 }
-  
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-}
-  
-.navbar ul li a{
+
+header a{
     text-decoration: none;
+    color: var(--secondary-color);
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    color: var(--primary-color);
-    font-weight: 400;
-    padding: 15px;
-
-    transition: all 0.3s;
+    color: var(--secondary-color);
 }
 
-.navbar ul li a:hover{
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    
+}
+
+#menu > li{
+    margin-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.overwatch-two{
     color: var(--accent-color);
-
-    transform: translateY(-10px);
-}
-  
-.navbar ul li .active{
-    color: var(--accent-color);
-}
-
-.logo img{
-    width: 80px;
 }
 
 #sign-up{
-    border: 2px solid var(--accent-color);
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
-    padding: 3px 8%; 
-}
-  
-#sign-up:hover{
-    background-color: var(--secondary-color);
-    border: 2px solid var(--accent-color);
-    color: var(--accent-color);
-    transition: 0.5s;
+    color: var(--secondary-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 0px 5px;
 }
 
-.bg-video{
+/* Navbar And Dropdown Styling */
+nav{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+    box-shadow: 0 1px var(--black);
+    background-color: var(--primary-color);
 }
 
-@media (min-aspect-ratio: 16/9){
-    .bg-video{
-      width: 100%;
-      height: auto;
+/* Nav Toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
+/* Main Styling */
+
+/* Footer Styling */
+
+/* Media Queries */
+
+/* Tablets And Larger (768px+) */
+@media screen and (min-width: 768px){
+    /* Header Styling */
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    #menu > li{
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    #logo{
+        font-size: 120%;
+        line-height: 75%;
+        margin: 1rem;
     }
 }
-  
-@media (max-aspect-ratio: 16/9){
-    .bg-video{
-      width: auto;
-      height: 100%;
+
+/* Laptops and Desktops (992px+) */
+@media screen and (min-width: 992px){
+    #menu a:hover{
+        border-bottom: 1px solid var(--accent-color);
+    }
+
+    #sign-up:hover{
+        background-color: var(--primary-color);
     }
 }

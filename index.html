@@ -4,30 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overwatch 2</title>
-
+    <!-- Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+
     <!-- Header Content -->
-    <header class="banner">
-        <nav class="navbar">
-            <a href="index.html" class="logo">
-                <img src="assets/images/logo.png" alt="Overwatch 2 Logo" />
-            </a>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Overwatch<strong class="overwatch-two">2</strong></h1>
+      </a>
 
-            <ul class="navigation">
-            <li><a href="#" class="active">HOME</a></li>
-            <li><a href="#">ROLES</a></li>
-            <li><a href="#">TIMELINE</a></li>
-            <li><a href="#" id="sign-up">SIGNUP</a></li>
-            </ul>
-        </nav>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">X</label>
 
-        <div class="video-container">
-            <video autoplay loop muted plays-inline class="bg-video">
-                <source src="assets/video/overwatch-two-hero-video.mp4" type="video/mp4">
-            </video>
-        </div>
+      <!-- Navigation Menu -->
+      <nav>
+        <ul id="menu">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">ROLES</a></li>
+          <li><a href="#">TIMELINE</a></li>
+          <li><a href="#" id="sign-up">SIGN UP</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
