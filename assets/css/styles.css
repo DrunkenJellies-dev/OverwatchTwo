@@ -21,7 +21,9 @@
 
 body{
     min-height: 100vh;
-    background: url('../images/hero-image.webp') no-repeat center;
+    display: flex;
+    flex-direction: column;
+    /* background: url('../images/hero-image.webp') no-repeat center; */
     background-size: cover;
     font-family: 'Lato', sans-serif;
 }
@@ -53,7 +55,7 @@ h1{
 }
 
 #menu{
-    font-size: 110%;
+    font-size: 60%;
     letter-spacing: 4px;
     list-style-type: none;
     
@@ -87,6 +89,13 @@ nav{
     top: 100%;
     box-shadow: 0 1px var(--black);
     background-color: var(--primary-color);
+}
+
+main{
+    flex: 1 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Nav Toggle */
@@ -132,7 +141,7 @@ nav{
     }
 
     #logo{
-        font-size: 120%;
+        font-size: 100%;
         line-height: 75%;
         margin: 1rem;
     }
