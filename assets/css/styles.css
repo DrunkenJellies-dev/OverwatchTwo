@@ -123,9 +123,9 @@ footer{
 
 #social-networks{
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
 }
 
@@ -133,6 +133,31 @@ footer{
     font-size: 75%;
     padding: 5%;
     color: var(--secondary-color);
+    margin: 0 10px;
+}
+
+#footer-navigation{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none; 
+    padding: 5px 0;
+}
+
+#footer-navigation li a{
+    color: var(--secondary-color);
+    margin: 10px;
+    font-size: 50%;
+    text-decoration: none;
+}
+
+#footer-copyright{
+    justify-content: center;
+    display: flex;
+    font-size: 40%;
+    color: var(--secondary-color);
+    background-color: var(--black);
+    padding: 5px;
 }
 
 /* Media Queries */
