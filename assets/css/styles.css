@@ -28,6 +28,8 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
+
 /* Header Styling */
 
 header{
@@ -91,12 +93,7 @@ nav{
     background-color: var(--primary-color);
 }
 
-main{
-    flex: 1 0 auto;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* Nav Toggle */
 #nav-toggle:checked~nav{
@@ -112,8 +109,31 @@ main{
 }
 
 /* Main Styling */
+main{
+    flex: 1 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer Styling */
+footer{
+    background-color: var(--primary-color);
+}
+
+#social-networks{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-networks i{
+    font-size: 75%;
+    padding: 5%;
+    color: var(--secondary-color);
+}
 
 /* Media Queries */
 
