@@ -93,8 +93,6 @@ nav{
     background-color: var(--primary-color);
 }
 
-
-
 /* Nav Toggle */
 #nav-toggle:checked~nav{
     display: block;
@@ -111,9 +109,14 @@ nav{
 /* Main Styling */
 main{
     flex: 1 0 auto;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 38px;
+    
+}
+
+#hero{
+    height: 500px;
+    width: 100%;
+    background:url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer Styling */
