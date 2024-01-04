@@ -8,6 +8,7 @@
     --accent-color: #f06414;
     --secondary-accent-color: #218ffe;
     --black: #3a3a3a;
+    --background-primary-colour: rgba(67, 72, 76, .6)
 }
 
 /* General Styling */
@@ -26,6 +27,12 @@ body{
     /* background: url('../images/hero-image.webp') no-repeat center; */
     background-size: cover;
     font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: var(--secondary-color);
 }
 
 
@@ -48,12 +55,6 @@ header a{
     text-decoration: none;
     color: var(--secondary-color);
     
-}
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: var(--secondary-color);
 }
 
 #menu{
@@ -113,10 +114,22 @@ main{
     
 }
 
+/* Hero Section */
 #hero{
-    height: 500px;
+    height: 350px;
     width: 100%;
     background:url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text{
+    background-color: var(--background-primary-colour);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 1%;
 }
 
 /* Footer Styling */
@@ -201,6 +214,12 @@ footer{
         font-size: 100%;
         line-height: 75%;
         margin: 1rem;
+    }
+
+    /* Hero Content */
+    #cover-text{
+        width: 480px;
+        right: 50px;
     }
 }
 
