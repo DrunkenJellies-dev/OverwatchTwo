@@ -132,12 +132,11 @@ main{
 }
 
 /* Hero Image Carousel */
-.container{
+.hero-container{
     padding: 0.5rem;
 }
 
-.container h3{
-    text-align: center;
+.hero-container h3{
     color: var(--primary-color);
 }
 
@@ -185,6 +184,37 @@ main{
 .slider-nav a:hover{
     opacity: 100%;
 }
+
+
+/* Description Content */
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: var(--secondary-color);
+  }
+
+  .description-container img {
+    max-height: 100px;
+    width: auto;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+  .description-container h2{
+    color: var(--primary-color);
+  }
+
+  .text {
+    padding: 20px;
+    flex: 1;
+    font-size: 60%;
+  }
 
 /* Footer Styling */
 footer{
