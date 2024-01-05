@@ -200,7 +200,7 @@ main{
 }
 
 .description-container img {
-    max-height: 100px;
+    max-height: 80px;
     width: auto;
     object-fit: cover;
     padding: 5px;
@@ -212,8 +212,8 @@ main{
 
 .text {
     padding: 20px;
-    flex: 1;
-    font-size: 60%;
+    font-size: 50%;
+    line-height: 1.6;
 }
 
 /* Footer Styling */
@@ -316,6 +316,4 @@ footer{
     #sign-up:hover{
         background-color: var(--primary-color);
     }
-
-    
 }
