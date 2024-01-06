@@ -155,7 +155,7 @@ iframe{
   .introduction p {
     font-size: 12px;
     line-height: 1.6;
-    color: #555;
+    color: var(--primary-color);
   }
 
 /* Hero Image Carousel */
