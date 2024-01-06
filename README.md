@@ -123,6 +123,24 @@ Signup Page Small Screens
 
 # Testing
 
+**Manual Testing**
+
+Manual testing is performed to ensure website performs well on different browsers and devices.
+
+**Browsers Used**
+* Chrome
+* Safari
+* Microsoft Edge
+* FireFox
+
+**Devices Used**
+* Mac Book
+* Windows 10 desktop
+* Samsung Galaxy Ultra 23
+* Google Pixel 4a
+
+The website is fully functional on all platforms.
+
 **Functional Testing**
 
 * Navigation Bar Links
