@@ -49,15 +49,27 @@ This website was built using HTML and CSS as a Milestone Project#1 for the Code 
 
 Homepage Medium - Large Screens
 
+![Homepage Medium - Large Screens](./assets/images/readme/homepage-wireframe-desktop.png)
+
 HomePage Small Screens
+
+![Homepage Small Screens](./assets/images/readme/homepage-wireframe-mobile.png)
 
 Timeline Page Medium - Large Screens
 
+![Timeline Page Medium - Large Screens](./assets/images/readme/timeline-wireframe-desktop.png)
+
 Timeline Small Screens
+
+![Timeline Small Screens](./assets/images/readme/timeline-wireframe-mobile.png)
 
 Signup Page Medium - Large Screens
 
+![Signup Page Medium - Large Screens](./assets/images/readme/signupPage-wireframe-desktop.png)
+
 Signup Page Small Screens
+
+![Signup Page Small Screens](./assets/images/readme/signupPage-wireframe-mobile.png)
 
 **Typography**
 
@@ -77,9 +89,13 @@ Signup Page Small Screens
 
 * The Navigation bar to the other webpages are displayed on the right of the screen each with a link to the pages that share the same name. These would be Home, Timeline and Signup.
 
+![Navigaton Bar](./assets/images/readme/header.png)
+
 **Homepage Hero Image**
 
 * This is the main image on the homepage which includes text of the sites name and a sub heading so that users already knwo what to expect.
+
+![Homepage Hero Image](./assets/images/readme/hero-image.jpg)
 
 **Introduction Section**
 
@@ -87,17 +103,25 @@ Signup Page Small Screens
 
 * It encourages the user to keep exploring the site once they find out if they are intersted or not
 
+![Introduction Section](./assets/images/readme/Introduction.png)
+
 **Description Section**
 
 * This section is used to show the user all of the different topics that are covered on the website by giving different snippets on each on respectiely. This will help gather intrigue and encourage the user to go out and look for the information that they want to find on the site.
+
+![Description Section](./assets/images/readme/description-section.png)
 
 **'Meet The Heroes' Image Carousel**
 
 * This is a graphic that allows the user to cycle through all of the different characters to expect to find out more about on the website. I think this would also keep up user retention rate as it allows the user to iteract with the site directly alongside seeing some of their favourite heroes.
 
+![Image Carousel](./assets/images/readme/image-carousel.png)
+
 **Map Youtube Trailer**
 
 * This is an embeded video which shows a trailer of one of the most historic maps within the video game. This allows users to interact with the site more while also getting a glimpse of what some more of the topics are going to be discussed.
+
+![Image Carousel](./assets/images/readme/video-image.png)
 
 **Footer**
 
@@ -107,15 +131,21 @@ Signup Page Small Screens
 
 * The footer also includes a small navigation bar for so that when users scroll down they are drawn to that section and encouraged to continue exploreing the site.
 
+![Footer](./assets/images/readme/footer.png)
+
 **Timeline Page**
 
 * The timeline page includes a complete list of a series of events that allow the user to see everything that has happened in the story up until the present day. This is the main attraction of the site as the purpose was to be able to layout all of the story in a clear , understandable, and attractive manner.
+
+![Timeline](./assets/images/readme/timeline-image.png)
 
 **Signup Page**
 
 * This page includes a sign up form where the users can input their first name, last name, email and role that they like to play in the game.
 
 * The purpose of this section is to beable to reengage user after they have left the site so that they can return and continue using the service.
+
+![Signup Page](./assets/images/readme/signup-page.jpg)
 
 **Features Left To Implement**
 
@@ -157,9 +187,13 @@ Signup -> signup.HTML
 
 **HTML Checked**
 
+![HTML Checker](./assets/images/readme/html-check.png)
+
 * The HTML was checked and validated by the official w3c Markup Validation Service
 
 **CSS Checked**
+
+![CSS Checker](./assets/images/readme/css-checker.png)
 
 * The CSS was checked and validated by The W3C CSS Validation Service
 
