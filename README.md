@@ -197,8 +197,18 @@ Signup -> signup.HTML
 
 * The CSS was checked and validated by The W3C CSS Validation Service
 
-# Technologies
+# Deployment
+The site was deployed to GitHub Pages.
+1. Navigate to the Github repo being deployed
+2. Select 'Settings'
+3. Select 'Pages'
+4. Scroll to the 'Build and deployment'/'Source' section
+5. Find sub-section 'Branch'
+6. From drop-down menu 'none'/'select branch' select source 'main' (or the preferred branch that you would like live)
+7. Click 'Save'
+8. Wait until you can see a link for the deployed page within Github Page section (this can take a while)
 
+# Technologies
 * HTML
 * CSS
 * GitHub
@@ -211,7 +221,6 @@ Signup -> signup.HTML
 * W3C Jigsaw CSS Validator
 
 # Credits
-
 * Google Fonts
 * FontAwesome
 * W3Schools.com
