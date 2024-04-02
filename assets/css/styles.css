@@ -106,7 +106,6 @@ nav{
 main{
     flex: 1 0 auto;
     margin-top: 38px;
-    
 }
 
 iframe{
@@ -351,11 +350,15 @@ iframe{
 }
 
 /* Form Styling */
-#signup {
+main:has(#signup){
     background-image: url("../images/tracer-background-image.jpg");
     background-size: cover;
-    background-position: 75%;
+}
+
+#signup{
+    
     padding: 100px 10% 0 10%;
+    display: flex;
 }
 
 #signup-form {
