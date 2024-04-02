@@ -34,12 +34,6 @@ h1, h2, h3{
     color: var(--secondary-color);
 }
 
-hr{
-    border-top: 1px solid var(--accent-color);
-    border-radius: 5px;
-}
-
-
 /* Header Styling */
 
 header{
@@ -61,10 +55,8 @@ header a{
 }
 
 #menu{
-    font-size: 60%;
     letter-spacing: 4px;
     list-style-type: none;
-    
 }
 
 #menu > li{
@@ -118,7 +110,7 @@ main{
 }
 
 iframe{
-    font-size: 10%;
+    border: none;
 }
 
 /* Hero Section */
@@ -127,11 +119,12 @@ iframe{
     width: 100%;
     background:url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
+    border-bottom: 3px solid var(--primary-color); /* Add border at the bottom */
 }
 
 #cover-text{
     background-color: var(--background-primary-colour);
-    font-size: 130%;
+    font-size: 170%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -151,7 +144,6 @@ iframe{
   }
   
   .introduction h2 {
-    /* font-size: 32px; */
     margin-bottom: 20px;
     color: var(--primary-color);
   }
@@ -251,7 +243,8 @@ iframe{
     height: 50%;
     width: auto;
     object-fit: cover;
-    padding: 5px;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .description-container h2{
@@ -260,10 +253,10 @@ iframe{
 
 .text {
     padding: 20px;
-    /* font-size: 50%; */
     line-height: 1.6;
     color: var(--primary-color);
-    margin-left: 10px;
+    margin-left: 20px;
+    width: 76%;
 }
 
 /* Lore Video Styling */
@@ -276,12 +269,10 @@ iframe{
 
 .video-section h2{
     border-bottom: 0 1px var(--accent-color);
-    /* font-size: 22px; */
 }
 
 .video-section p{
     color: var(--secondary-color);
-    /* font-size: 12px; */
 }
   
 .video-container {
@@ -364,8 +355,7 @@ iframe{
     background-image: url("../images/tracer-background-image.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    padding: 100px 10% 0 10%;
 }
 
 #signup-form {
@@ -472,6 +462,16 @@ footer{
 
     .description-container img{
         height: 150px;
+        margin-left: 0;
+    }
+
+    .text{
+        width: 100%;
+        line-height: 1.6;
+        color: var(--primary-color);
+        text-align: center;
+        margin-left: 0;
+        padding: 20px;
     }
 
     /* Video Styling */
@@ -489,13 +489,20 @@ footer{
 /* Tablets And Larger (768px+) */
 @media screen and (min-width: 768px){
 
-    /* Description Styping */
+    /* Description Styling */
     .description-container{
-        flex-direction:row;
+        flex-direction: row;
     }
 
     .description-container img{
         height: 150px;
+        margin-left: 20px;
+    }
+
+    .text {
+        margin-left: 20px; 
+        width: 76%; 
+        text-align: left; 
     }
 
     /* Header Styling */
